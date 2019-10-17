@@ -41,6 +41,12 @@
             <artifactId>jquery</artifactId>
             <version>3.3.1</version>
         </dependency>
+        <!--引入boostrap的webJar -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.0.0</version>
+        </dependency>
         <!--引入thymeleaf引擎 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
