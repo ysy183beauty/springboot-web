@@ -2,6 +2,7 @@ package com.springboot.config;
 
 import com.springboot.compent.LoginHandlerInterceptor;
 import com.springboot.compent.MyLocalResolver;
+import org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
@@ -11,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 public class MyMvcConfig extends WebMvcConfigurerAdapter {
+
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         //发送testHello请求，跳转到success
